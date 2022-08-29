@@ -60,7 +60,7 @@ const startApp = async () => {
 
     disable();
     tbody[0].innerHTML = newData;
-    label[0].innerHTML = `Page ${page}`;
+    label[0].innerHTML = `Showing Page  ${page}`;
   };
 
   nextButton?.addEventListener("click", function () {
